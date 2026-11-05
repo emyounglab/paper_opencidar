@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Published data: keep the committed bytes (CRLF) exactly
+flow_cytometry_analysis/MEFL_data/CIDAR_MEFL_values.csv -text
+flow_cytometry_analysis/MEFL_data/sample_names.csv -text
